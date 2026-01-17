@@ -1,6 +1,7 @@
 fn main() {
     println!("Hello, world!");
     ifs();
+    loops();
 }
 
 
