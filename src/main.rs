@@ -24,7 +24,7 @@ fn loops() {
         println!("count = {}", count);
         count += 1;
 
-        if count == 5 {
+        if count == 50000 {
             break;           // ループ脱出
         }
     }
