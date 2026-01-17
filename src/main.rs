@@ -6,7 +6,7 @@ fn main() {
 
 fn ifs(){
     println!("これはif文のべんきょーです。");
-    const A:str = "Hello";
+    const A:&str = "Hello";
     let mut c = 1;
     let mut b = 2;
     if c==2{
