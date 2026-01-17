@@ -1,7 +1,6 @@
 fn main() {
     println!("Hello, world!");
     ifs();
-    loops();
 }
 
 
@@ -17,7 +16,7 @@ fn ifs(){
     };
 }
 
-fn loops() {
+fn _loops() {
     let mut count = 0;
 
     loop {
