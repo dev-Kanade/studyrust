@@ -15,3 +15,18 @@ fn ifs(){
         println!("{A}");
     };
 }
+
+fn loops() {
+    let mut count = 0;
+
+    loop {
+        println!("count = {}", count);
+        count += 1;
+
+        if count == 5 {
+            break;           // ループ脱出
+        }
+    }
+
+    println!("終了！");
+}
