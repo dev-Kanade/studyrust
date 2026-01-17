@@ -12,6 +12,6 @@ fn ifs(){
     if c==2{
         println!("cは2です。{A}");
     }else{
-        prinln!("{A}");
+        println!("{A}");
     };
 }
